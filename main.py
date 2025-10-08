@@ -10,8 +10,11 @@ t = 0
 for i in left: 
     for k in middle: 
         for r in right: 
-            t += i * k * r
+            t += int(str(i) + str(k) + str(r))
 
 
 print(t)
-  
+
+
+
+
